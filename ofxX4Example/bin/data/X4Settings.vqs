@@ -1,0 +1,230 @@
+[Machine 1 Window 1]
+ClassName=X4WindowClass
+ShowState=Restored
+[Machine 1 Window 1 Hardware Resources]
+Input=1
+InputLabel=1
+[Machine 1 Window 1 Input Preferred Timings 1]
+HorFrequency=39288
+PixelClock=86750000
+VerFrequency=49922
+Flags=514
+Timing=2
+HorAddrTime=2048
+HorRightBorder=0
+HorFrontPorch=48
+HorSyncTime=32
+HorBackPorch=80
+HorLeftBorder=0
+VerAddrTime=768
+VerBottomBorder=0
+VerFrontPorch=3
+VerSyncTime=10
+VerBackPorch=6
+VerTopBorder=0
+[Machine 1 Window 1 Input Current Timings 1]
+HorFrequency=39290
+PixelClock=86752848
+VerFrequency=49944
+Flags=14
+Timing=2
+HorAddrTime=2048
+HorRightBorder=0
+HorFrontPorch=32
+HorSyncTime=32
+HorBackPorch=96
+HorLeftBorder=0
+VerAddrTime=768
+VerBottomBorder=0
+VerFrontPorch=3
+VerSyncTime=10
+VerBackPorch=6
+VerTopBorder=0
+[Machine 1 Window 1 Input Equalisation Timings 1]
+Equalisation=0
+[Machine 1 Window 1 Input Smoothness 1]
+Smoothness=4
+[Machine 1 Window 1 Output Settings 0]
+TimingSource=0
+Enable=1
+[Machine 1 Window 1 Output Default Timings 0]
+HorFrequency=52430
+PixelClock=75500000
+VerFrequency=49981
+Flags=2
+Timing=2
+HorAddrTime=1280
+HorRightBorder=0
+HorFrontPorch=48
+HorSyncTime=32
+HorBackPorch=80
+HorLeftBorder=0
+VerAddrTime=1024
+VerBottomBorder=0
+VerFrontPorch=3
+VerSyncTime=7
+VerBackPorch=15
+VerTopBorder=0
+[Machine 1 Window 1 Output Current Timings 0]
+HorFrequency=52430
+PixelClock=75500000
+VerFrequency=49981
+Flags=2
+Timing=2
+HorAddrTime=1280
+HorRightBorder=0
+HorFrontPorch=48
+HorSyncTime=32
+HorBackPorch=80
+HorLeftBorder=0
+VerAddrTime=1024
+VerBottomBorder=0
+VerFrontPorch=3
+VerSyncTime=7
+VerBackPorch=15
+VerTopBorder=0
+[Machine 1 Window 1 Output Image 0]
+CroppingTop=0
+CroppingLeft=0
+CroppingWidth=32767
+CroppingHeight=65535
+ImageSource=0
+Transform=0
+[Machine 1 Window 1 Output Settings 1]
+TimingSource=0
+Enable=1
+[Machine 1 Window 1 Output Default Timings 1]
+HorFrequency=52430
+PixelClock=75500000
+VerFrequency=49981
+Flags=2
+Timing=2
+HorAddrTime=1280
+HorRightBorder=0
+HorFrontPorch=48
+HorSyncTime=32
+HorBackPorch=80
+HorLeftBorder=0
+VerAddrTime=1024
+VerBottomBorder=0
+VerFrontPorch=3
+VerSyncTime=7
+VerBackPorch=15
+VerTopBorder=0
+[Machine 1 Window 1 Output Current Timings 1]
+HorFrequency=52430
+PixelClock=75500000
+VerFrequency=49981
+Flags=2
+Timing=2
+HorAddrTime=1280
+HorRightBorder=0
+HorFrontPorch=48
+HorSyncTime=32
+HorBackPorch=80
+HorLeftBorder=0
+VerAddrTime=1024
+VerBottomBorder=0
+VerFrontPorch=3
+VerSyncTime=7
+VerBackPorch=15
+VerTopBorder=0
+[Machine 1 Window 1 Output Image 1]
+CroppingTop=0
+CroppingLeft=32768
+CroppingWidth=65535
+CroppingHeight=65535
+ImageSource=0
+Transform=0
+[Machine 1 Window 1 Output Settings 2]
+TimingSource=0
+Enable=1
+[Machine 1 Window 1 Output Default Timings 2]
+HorFrequency=52430
+PixelClock=75500000
+VerFrequency=49981
+Flags=2
+Timing=2
+HorAddrTime=1280
+HorRightBorder=0
+HorFrontPorch=48
+HorSyncTime=32
+HorBackPorch=80
+HorLeftBorder=0
+VerAddrTime=1024
+VerBottomBorder=0
+VerFrontPorch=3
+VerSyncTime=7
+VerBackPorch=15
+VerTopBorder=0
+[Machine 1 Window 1 Output Current Timings 2]
+HorFrequency=52430
+PixelClock=75500000
+VerFrequency=49981
+Flags=2
+Timing=2
+HorAddrTime=1280
+HorRightBorder=0
+HorFrontPorch=48
+HorSyncTime=32
+HorBackPorch=80
+HorLeftBorder=0
+VerAddrTime=1024
+VerBottomBorder=0
+VerFrontPorch=3
+VerSyncTime=7
+VerBackPorch=15
+VerTopBorder=0
+[Machine 1 Window 1 Output Image 2]
+CroppingTop=0
+CroppingLeft=32768
+CroppingWidth=65535
+CroppingHeight=65535
+ImageSource=0
+Transform=0
+[Machine 1 Window 1 Output Settings 3]
+TimingSource=1
+Enable=1
+[Machine 1 Window 1 Output Default Timings 3]
+HorFrequency=55288
+PixelClock=115000000
+VerFrequency=49990
+Flags=514
+Timing=2
+HorAddrTime=1920
+HorRightBorder=0
+HorFrontPorch=48
+HorSyncTime=32
+HorBackPorch=80
+HorLeftBorder=0
+VerAddrTime=1080
+VerBottomBorder=0
+VerFrontPorch=3
+VerSyncTime=5
+VerBackPorch=18
+VerTopBorder=0
+[Machine 1 Window 1 Output Current Timings 3]
+HorFrequency=55288
+PixelClock=115000000
+VerFrequency=49990
+Flags=514
+Timing=2
+HorAddrTime=1920
+HorRightBorder=0
+HorFrontPorch=48
+HorSyncTime=32
+HorBackPorch=80
+HorLeftBorder=0
+VerAddrTime=1080
+VerBottomBorder=0
+VerFrontPorch=3
+VerSyncTime=5
+VerBackPorch=18
+VerTopBorder=0
+[Machine 1 Window 1 Output Image 3]
+CroppingTop=0
+CroppingLeft=0
+CroppingWidth=65535
+CroppingHeight=65535
+ImageSource=3
+Transform=0

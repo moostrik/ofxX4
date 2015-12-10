@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxX4\src\ofxEasyX4.cpp">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxX4\src\ofxEasyX4Gui.cpp">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxX4\src\ofxX4.cpp">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxX4\src\ofxX4SL.cpp">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings">
+      <UniqueIdentifier>{877F005D-13E6-0592-1D97-F2E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\src">
+      <UniqueIdentifier>{CCB2AC63-49D2-977C-CFE8-AEAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxXmlSettings\libs">
+      <UniqueIdentifier>{687714A8-1662-FA1C-261F-50F0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4">
+      <UniqueIdentifier>{FEA7AA85-CDC1-F4E5-78D7-EDFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4\src">
+      <UniqueIdentifier>{F532CC79-7D1F-F43F-7AAA-0559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4\libs">
+      <UniqueIdentifier>{2832F800-0943-08A9-9DE9-C4E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4\libs\include">
+      <UniqueIdentifier>{A3B628D2-26EC-37E9-6E1F-6D45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4\libs\lib">
+      <UniqueIdentifier>{6ef603d6-db62-479f-8675-3d38c1421226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4\libs\lib\win32">
+      <UniqueIdentifier>{3cc81c15-1758-4730-8cab-7c221490df87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+      <Filter>addons\ofxXmlSettings\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxXmlSettings\libs\tinyxml.h">
+      <Filter>addons\ofxXmlSettings\libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\src\ofxEasyX4.h">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\src\ofxEasyX4Gui.h">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\src\ofxX4.h">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\src\ofxX4SL.h">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\libs\include\vdifdefs.h">
+      <Filter>addons\ofxX4\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\libs\include\X4.h">
+      <Filter>addons\ofxX4\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\libs\include\X4Easy.h">
+      <Filter>addons\ofxX4\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\libs\include\VDIF.H">
+      <Filter>addons\ofxX4\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\libs\include\X4ERROR.H">
+      <Filter>addons\ofxX4\libs\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\addons\ofxX4\libs\lib\Win32\X4Easy.lib">
+      <Filter>addons\ofxX4\libs\lib\win32</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

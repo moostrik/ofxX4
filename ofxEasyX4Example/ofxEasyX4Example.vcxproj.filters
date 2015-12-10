@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxX4\src\ofxEasyX4.cpp">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxX4\src\ofxEasyX4Gui.cpp">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxX4\src\ofxX4.cpp">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui">
+      <UniqueIdentifier>{4F2A59AF-5F4E-704B-D067-EC13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui\src">
+      <UniqueIdentifier>{645E9533-4DCD-6179-1CDF-CB65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4">
+      <UniqueIdentifier>{FEA7AA85-CDC1-F4E5-78D7-EDFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4\src">
+      <UniqueIdentifier>{F532CC79-7D1F-F43F-7AAA-0559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4\libs">
+      <UniqueIdentifier>{2832F800-0943-08A9-9DE9-C4E7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4\libs\include">
+      <UniqueIdentifier>{A3B628D2-26EC-37E9-6E1F-6D45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4\libs\lib">
+      <UniqueIdentifier>{b8691701-c6f7-41b7-9a7f-4dff142aac13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxX4\libs\lib\win32">
+      <UniqueIdentifier>{5240737a-8f7f-4ff9-9387-68cbfc1aef72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\src\ofxEasyX4.h">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\src\ofxEasyX4Gui.h">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\src\ofxX4.h">
+      <Filter>addons\ofxX4\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\libs\include\vdifdefs.h">
+      <Filter>addons\ofxX4\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\libs\include\X4.h">
+      <Filter>addons\ofxX4\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxX4\libs\include\X4Easy.h">
+      <Filter>addons\ofxX4\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\include\VDIF.H">
+      <Filter>addons\ofxX4\libs\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libs\include\X4ERROR.H">
+      <Filter>addons\ofxX4\libs\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\addons\ofxX4\libs\lib\win32\X4Easy.lib">
+      <Filter>addons\ofxX4\libs\lib\win32</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
