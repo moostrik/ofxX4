@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B0A8CDD1BB299CE00745E27 /* ofxX4SL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B0A8CDC1BB299CE00745E27 /* ofxX4SL.cpp */; };
-		0B1071151BC5197600AB6A44 /* ofxX4Threaded.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B1071131BC5197600AB6A44 /* ofxX4Threaded.cpp */; };
 		0B7A116E1BB17DFC00C1E91B /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B7A11671BB17DFC00C1E91B /* tinyxml.cpp */; };
 		0B7A116F1BB17DFC00C1E91B /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B7A11691BB17DFC00C1E91B /* tinyxmlerror.cpp */; };
 		0B7A11701BB17DFC00C1E91B /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0B7A116A1BB17DFC00C1E91B /* tinyxmlparser.cpp */; };
@@ -52,8 +51,6 @@
 /* Begin PBXFileReference section */
 		018EA329E21C0BAB9C1885F1 /* vdifDefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = vdifDefs.h; path = ../libs/include/vdifDefs.h; sourceTree = SOURCE_ROOT; };
 		0B0A8CDC1BB299CE00745E27 /* ofxX4SL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxX4SL.cpp; path = ../src/ofxX4SL.cpp; sourceTree = "<group>"; };
-		0B1071131BC5197600AB6A44 /* ofxX4Threaded.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxX4Threaded.cpp; path = ../src/ofxX4Threaded.cpp; sourceTree = "<group>"; };
-		0B1071141BC5197600AB6A44 /* ofxX4Threaded.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxX4Threaded.h; path = ../src/ofxX4Threaded.h; sourceTree = "<group>"; };
 		0B7A11671BB17DFC00C1E91B /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
 		0B7A11681BB17DFC00C1E91B /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
 		0B7A11691BB17DFC00C1E91B /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlerror.cpp; sourceTree = "<group>"; };
@@ -147,8 +144,6 @@
 				88775EB22F64DF06FD1E180F /* ofxX4.h */,
 				0B0A8CDC1BB299CE00745E27 /* ofxX4SL.cpp */,
 				0B7A11731BB17E8400C1E91B /* ofxX4SL.h */,
-				0B1071131BC5197600AB6A44 /* ofxX4Threaded.cpp */,
-				0B1071141BC5197600AB6A44 /* ofxX4Threaded.h */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -326,7 +321,6 @@
 				0B7A116E1BB17DFC00C1E91B /* tinyxml.cpp in Sources */,
 				0B0A8CDD1BB299CE00745E27 /* ofxX4SL.cpp in Sources */,
 				0B7A116F1BB17DFC00C1E91B /* tinyxmlerror.cpp in Sources */,
-				0B1071151BC5197600AB6A44 /* ofxX4Threaded.cpp in Sources */,
 				0B7A11701BB17DFC00C1E91B /* tinyxmlparser.cpp in Sources */,
 				D16D0B99B1AA7D73C4E27B61 /* ofxX4.cpp in Sources */,
 			);
