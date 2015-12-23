@@ -12,7 +12,14 @@ ofxX4::ofxX4() {
 //--------------------------------------------------------------------
 ofxX4::~ofxX4() {
 	close();
-	X4EasyFree(hDLL);
+	X4ERROR Error = X4EasyFree(hDLL);
+	
+	if (Error) {
+		ofLogError("ofxX4") << "unable to free X4";
+		printError(Error);
+		return false;
+	}
+	
 }
 
 //--------------------------------------------------------------------
