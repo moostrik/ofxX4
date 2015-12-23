@@ -2,25 +2,23 @@
 
 #include "ofMain.h"
 
-//#include "errno.h"
-//#include "wchar.h"
-
-#ifndef WIN32
-#include "datatypes.h"
+#ifdef __APPLE__
+#include "DATATYPES.H"
 #endif
-//#include "api.h"
-#include "vdif.h"
-#include "vdifDefs.h"
+#include "VDIF.H"
+#include "VDIFDEFS.H"
 #include "X4.h"
-#include "X4Error.h"
-#include "X4Easy.h"
+#include "X4ERROR.H"
+#include "X4EASY.H"
 
-//#define PREFFERED_INPUT_QUICK_FIX
-//#define UPDATE_TO_FLASH				// disable when testing
-
-
+#ifndef __APPLE__
+#define PREFFERED_INPUT_QUICK_FIX
+#endif
 
 #define X4TIMINGS VDIFA
+
+//#define DISABLE_UPDATE_TO_FLASH
+
 
 typedef struct _X4CROP
 {

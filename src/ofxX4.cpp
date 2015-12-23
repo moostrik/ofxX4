@@ -76,7 +76,9 @@ void ofxX4::close() {
 
 //--------------------------------------------------------------------
 void ofxX4::updateFlash() {
-#ifdef UPDATE_TO_FLASH
+#ifdef DISABLE_UPDATE_TO_FLASH
+	ofLogWarning("ofxX4SL") << "update to flash disabled";
+#else
 	X4ERROR Error = 0;
 	Error = X4EasyDeviceUpdateFlash(hDevice);
 	if (Error) {
@@ -87,8 +89,6 @@ void ofxX4::updateFlash() {
 	else {
 		ofLogVerbose("ofxX4") << "flash updated";
 	}
-#else
-	ofLogWarning("ofxX4SL") << "update to flash disabled";
 #endif
 }
 
