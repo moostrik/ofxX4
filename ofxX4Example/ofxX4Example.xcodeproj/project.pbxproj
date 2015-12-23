@@ -49,7 +49,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		018EA329E21C0BAB9C1885F1 /* vdifDefs.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = vdifDefs.h; path = ../libs/include/vdifDefs.h; sourceTree = SOURCE_ROOT; };
+		0B0148A41C2ACB27005AD1C3 /* DATATYPES.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = DATATYPES.H; path = ../libs/include/DATATYPES.H; sourceTree = "<group>"; };
+		0B0148A51C2ACB27005AD1C3 /* VDIF.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = VDIF.H; path = ../libs/include/VDIF.H; sourceTree = "<group>"; };
+		0B0148A61C2ACB27005AD1C3 /* VDIFDEFS.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = VDIFDEFS.H; path = ../libs/include/VDIFDEFS.H; sourceTree = "<group>"; };
+		0B0148A71C2ACB27005AD1C3 /* X4.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = X4.H; path = ../libs/include/X4.H; sourceTree = "<group>"; };
+		0B0148A81C2ACB27005AD1C3 /* X4EASY.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = X4EASY.H; path = ../libs/include/X4EASY.H; sourceTree = "<group>"; };
+		0B0148A91C2ACB27005AD1C3 /* X4ERROR.H */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = X4ERROR.H; path = ../libs/include/X4ERROR.H; sourceTree = "<group>"; };
 		0B0A8CDC1BB299CE00745E27 /* ofxX4SL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxX4SL.cpp; path = ../src/ofxX4SL.cpp; sourceTree = "<group>"; };
 		0B7A11671BB17DFC00C1E91B /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
 		0B7A11681BB17DFC00C1E91B /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
@@ -60,13 +65,8 @@
 		0B7A11731BB17E8400C1E91B /* ofxX4SL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ofxX4SL.h; path = ../src/ofxX4SL.h; sourceTree = "<group>"; };
 		0B907C3E1BAC2D9B00E7467A /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		0BF91AC71BBD772D0055E808 /* libX4EASY.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libX4EASY.dylib; sourceTree = "<group>"; };
-		0BF91AD11BBD788F0055E808 /* dataTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dataTypes.h; path = ../libs/include/dataTypes.h; sourceTree = "<group>"; };
 		0FB1FD9DD0079E1949EA180E /* ofxX4.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxX4.cpp; path = ../src/ofxX4.cpp; sourceTree = SOURCE_ROOT; };
-		1C2F37A04A24B8F3DA399627 /* X4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = X4.h; path = ../libs/include/X4.h; sourceTree = SOURCE_ROOT; };
-		352C88F64371832AC7DF25F4 /* vdif.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = vdif.h; path = ../libs/include/vdif.h; sourceTree = SOURCE_ROOT; };
 		88775EB22F64DF06FD1E180F /* ofxX4.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxX4.h; path = ../src/ofxX4.h; sourceTree = SOURCE_ROOT; };
-		A2B3E794E4D3A8BD79E033F6 /* X4Easy.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = X4Easy.h; path = ../libs/include/X4Easy.h; sourceTree = SOURCE_ROOT; };
-		B2B1E01804573CDE5C6AC965 /* X4Error.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = X4Error.h; path = ../libs/include/X4Error.h; sourceTree = SOURCE_ROOT; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E4B69B5B0A3A1756003C02F2 /* ofxX4ExampleDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofxX4ExampleDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
@@ -151,12 +151,12 @@
 		3BD12D2E949C30AD6FE0C638 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				352C88F64371832AC7DF25F4 /* vdif.h */,
-				018EA329E21C0BAB9C1885F1 /* vdifDefs.h */,
-				1C2F37A04A24B8F3DA399627 /* X4.h */,
-				A2B3E794E4D3A8BD79E033F6 /* X4Easy.h */,
-				B2B1E01804573CDE5C6AC965 /* X4Error.h */,
-				0BF91AD11BBD788F0055E808 /* dataTypes.h */,
+				0B0148A41C2ACB27005AD1C3 /* DATATYPES.H */,
+				0B0148A51C2ACB27005AD1C3 /* VDIF.H */,
+				0B0148A61C2ACB27005AD1C3 /* VDIFDEFS.H */,
+				0B0148A71C2ACB27005AD1C3 /* X4.H */,
+				0B0148A81C2ACB27005AD1C3 /* X4EASY.H */,
+				0B0148A91C2ACB27005AD1C3 /* X4ERROR.H */,
 			);
 			name = include;
 			sourceTree = "<group>";

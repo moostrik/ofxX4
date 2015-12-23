@@ -8,8 +8,6 @@ openframeworks addon for controlling the datapath X4
 * ofxEasyX4 for easy of use
 * ofxEasyX4Gui for easy of use width ofxGui
 
-* NOTE: in include/X4.h two lines are commnted out: line 17 #include <pshpack1.h> and line 176 #include <poppack.h>  
-
 # KNOWN BUGS
 * There is a bug in the OSX API where getNumDevices will always return the number of devices found on start of the application
 * There is a bug in the OSX API where getInputPreferredTimings() does not return values, the addon returns getInputCurrentTimings() instead";
